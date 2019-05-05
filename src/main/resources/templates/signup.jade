@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+ head
+    title Signup Page
+ body
+    div
+      form#signupform(method='post')
+        label Email
+        input(type='email', name='email' required)
+        br
+        label Firstname
+        input(type='text', name='firstname' required)
+        br
+        label Lastname
+        input(type='text', name='lastname' required)
+        br
+        label Phoneno
+        input(type='number', name='phone_no' required)      
+        br
+        label Password
+        input(type='password', name='password' required)
+        br
+        label Re-Password
+        input(type='password', name='re-password' required)
+        br
+        input(type="submit",value="Signup")
+        input(type="reset" , value ="reset")
+    script(src ="/js/signup.js", type="text/javascript")
+        

@@ -1,0 +1,16 @@
+html
+ head
+  title index page
+ body
+   div
+     form#loginform(method='post')
+       label email
+       input(type='text', name='email')
+       br
+       label password
+       input(type='password', name='password')
+       br
+       input(type='submit', value='login')
+       a(href='signup')
+          input(type='button', value='signup')
+  script(src ="/js/index.js", type="text/javascript")
